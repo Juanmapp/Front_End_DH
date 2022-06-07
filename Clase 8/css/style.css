@@ -1,0 +1,66 @@
+body {
+    background-size: cover;
+    background-image: url('https://blog.juandesouza.com/wp-content/uploads/2020/07/juandesouza_frameworks-de-desenvolvedores.jpg');
+    }
+
+h1 {
+    line-height: top;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.sinSub {
+    color: white;
+    text-decoration: none;
+}
+
+div {
+    text-align: center;
+    background-size: cover;
+}
+footer a {
+    word-spacing: 1em;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 5em;
+    font-family: 'Anonymous Pro', monospace;
+    
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+h2 {color: white;
+font-size: 200px;
+text-align: left;
+font-family: 'Anonymous Pro', monospace;
+white-space: pre;
+}
+
+.texto {
+    color: white;
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Anonymous Pro', monospace;
+}
+.negrita {
+    font-weight: bold;
+    font-size: 85px;
+}
+.fotojm {
+    width: 600px;
+}
+.textoOpaco {
+    color: rgba(255, 255, 255, 0.418);
+}
+li {
+    color: white;
+}
