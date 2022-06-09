@@ -1,71 +1,70 @@
 body {  
     box-sizing: border-box;
-    margin: 0;
+    margin: 0px;
     width: 1024px;
 }
 
-img {
-    border-radius: 50%;
-    width: 122px;
-    height: 120px;
-    margin-top: 122px;
+.fotito {
+    border-radius: 50%;    
     margin-left: 100px;
+    position: relative;
+    margin-top: -70px;
 }
 header {
     background-color: #1CD1B0;
-    font-family: roboto;
-    font-weight: bold;
-    margin-bottom: 0px;
+    /* height: 38px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
-main{
 
-}
 h1 {
     background-color: #00669F;
     font-family: roboto;
     font-weight: bold;
     margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+
 }
+
 section {
     position: relative;
-    font-family: roboto;
     line-height: 19px;
     font-size: 16px;
-    font-weight: bold;
     display: flex;
     justify-content: space-evenly;
     
-}
-.fondo1 {
-    display: inline-block;
-    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
-    height: 193px;
-    box-shadow: #F3F3F3;   
-}
-.fondo2 {
-    display : inline-block;
-    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1\ \(1\).png);
-    height: 193px;
+
 }
 .fondo3 {
     display: inline-block;
     background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
     height: 193px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 p { 
     width: 300px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 16px;
 }
 
-h2 {margin-bottom: 12px;
-    margin-top: 12px;
+h2 {
+    font-weight: bold;
+    /* font-family: roboto; Tengo que poner la roboto pero en negrita ya que no me toma el bold  */
+    margin-bottom: 12px;
+    padding-top: 12px;
     width: 300px;
     text-align: center;
+    
 }
 button {
     margin-bottom: 0px;
-    margin-top: 12px;
     width: 128px;
     height: 48.52px;
     margin-left: 100px;
@@ -77,10 +76,28 @@ button {
     border: none;
 }
 footer {
-    margin-top: 400px;
+    margin-top: 500px;
     background-color: #00669F;
     color: #FFF9F9;
     font-family: roboto;
+    padding-left: 10px;
+}
 
+div {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+    height: 529px;
+    width: 300px;
+}
+h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: roboto;
     
+}
+.corazon {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 21px;
 }
