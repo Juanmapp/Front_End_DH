@@ -1,4 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
 header {
     background-color: #222222;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px
+    
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+main {
+    margin-top: 40px;
+    
 }
