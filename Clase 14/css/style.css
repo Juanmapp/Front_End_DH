@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Roboto:wght@100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+body {
+    font-family: "roboto" , sans-serif;
+}
+
+/* header */
+header div {
+    background-color: #D1891C;
+    padding: 10px 40px;
+    font-size: 48px;
+}
+
+header h1 {
+    background-color: #00669F;
+    padding: 20px;
+    color: #FFFFFF;
+    font-size: 72px;
+}
+
+/* main */
+
+main section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+/* cards */
+
+section article {
+    background-color: #F3F3F3;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin: 100px 0;
+    
+}
+
+section article div {    
+    height: 194px;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border-radius: 16px 16px 0 0 ;
+    
+}
+
+
+.bgBatman {
+    background: url(../img/FondoBatman.png);
+    background-size: cover;
+}
+
+.bgMM {
+    background: url(../img/FondoMM.png);
+    background-size: cover;
+}
+
+.bgSuperman {
+    background: url(../img/FondoSuperman.png);
+    background-size: cover;
+}
+
+.bgHarley {
+    background: url(../img/FondoHarleyQ.png);
+    background-size: cover;
+}
+
+
+section article img {
+    border-radius: 50%;
+    position: absolute;
+    width: 120px;
+    left: 90px;
+    top: 130px;
+}
+
+section article h2 {
+    margin-top: 74px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+section article p {
+    text-align: left;
+    margin: 10px;
+    font-size: 16px;
+}
+
+section article button {
+    background-color: #00669F;
+    color: #F3F3F3;
+    padding: 15px 37px;
+    margin-top: 37px;
+}
+
+/* footer */
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    position: relative;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px    ;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer img {
+    width: 100px;
+    position: absolute;
+    right: 47px;
+}
+
+@media (max-width:1250px) {
+    section article {
+        width: 35%;
+    }
+        
+    }
+
+@media (max-width:760px) {
+    section article {
+        width: 70%;
+    }
+    section article.harley {
+        display: none;
+    }
+}
+
+
+
