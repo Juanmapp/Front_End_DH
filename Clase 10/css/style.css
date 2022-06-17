@@ -1,7 +1,6 @@
 body {  
     box-sizing: border-box;
     margin: 0px;
-    width: 1024px;
 }
 
 .fotito {
@@ -35,7 +34,10 @@ section {
     line-height: 19px;
     font-size: 16px;
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
     
 
 }
@@ -102,4 +104,22 @@ h3 {
     position: absolute;
     margin-top: 16px;
     margin-left: 21px;
+}
+
+@media (max-width: 769px) {
+    section {
+        background-color: red;
+    }
+    
+
+    
+}
+
+@media (max-width: 480px) {
+    section {
+        background-color: blue;
+    }
+    
+
+    
 }
