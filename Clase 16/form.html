@@ -4,43 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/Style2.css">
+    <title>Añadir</title>
 </head>
 <body>
     <header>
         <h3>Descuentos 20%</h3>  
     </header>
     <main>
-        <h1>Heroes</h1>
-        <section>
+        <h1 >Nombre Tienda</h1>
+        <div class="links">
+            <ul type="none">
+                <li> <a href="">Contacto</a></li>
+                <li> <a href="">Registrarme</a> </li>
+                <li> <a href="">Ingresar</a> </li>
+            </ul>
+        </div>
+        <section class="formulario">
             <form action="superAñadido.html" method="get">
                 <h2>Añadí tu super!</h2>
                 <p>Agregá tu personaje favorito completando las opciones.</p>
 
-                <div>
-                    <label for="name">*Nombre</label>
-                    <input type="text" name="name" id="name" required>
-                
-                    <label for="especie">*Especie</label>
-                    <select name="especie" id="especie" required>
-                        <option value="Humano" selected>Humano</option>
-                        <option value="Unknow">Unknow</option>
-                        <option value="Extraterrestre">Extraterrestre</option>
-                    </select>
+                <div class="enlinea">
+                    <div class="primero">
+                        <label for="name">*Nombre</label>
+                        <input class="redondo" type="text" name="name" id="name" required>
+                    </div>
+                    <div class="primero">
+                        <label for="especie">*Especie</label>
+                        <select class="redondo" name="especie" id="especie" required>
+                            <option value="Humano" selected>Humano</option>
+                            <option value="Unknow">Unknow</option>
+                            <option value="Extraterrestre">Extraterrestre</option>
+                        </select>
+                    </div>
                 </div>
-                <div>
-                    <label for="fecha">Fecha</label>
-                    <input type="date" name="fecha" id="fecha">
 
-                    <label for="formfoto">Agregar foto</label>
-                    <input type="file" name="foto" id="formfoto" accept=".jpg">
+                <div class="enlinea" >
+                    <div class="primero">
+                        <label for="fecha">Fecha</label>
+                        <input class="redondo" type="date" name="fecha" id="fecha">
+                    </div>
+                    <div class="primero">
+                        <label for="formfoto">Agregar foto</label>
+                        <input class="archivo" type="file" name="foto" id="formfoto" accept=".jpg">
+                    </div>
                 </div>
-                <div>
+
+                <div class="enlinea">
                     <label for="descripcion"></label>
                     <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Descripcion"></textarea>
                     
+                    <div class="alineado">
+                        <div class="primero">
+                            <label for="Poderes">Poderes</label>
+                            <div class="poder">
+                                <input type="checkbox" name="Poderes" id="Poderes" value="Volar">Volar
+                            </div >
+                            <div class="poder">
+                            <input type="checkbox" name="Poderes" id="Poderes" value="Superinteligencia">Superinteligencia
+                            </div>
+                            <div class="poder">
+                                <input type="checkbox" name="Poderes" id="Poderes" value="Vista de rayo laser">Vista de rayo laser
+                            </div>
+                            <div class="poder">
+                                <input type="checkbox" name="Poderes" id="Poderes" value="Billetera gorda">Billetera gorda
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="primero">
+                            <label for="Tpersonaje">Tipo de personaje</label>
+                            <div class="poder">
+                                <input type="radio" name="Tpersonaje" id="Tpersonaje" value="Heroe / Heroina" >"Heroe / Heroina"
+                            </div>
+                            <div>
+                                <input class="poder" type="radio" name="Tpersonaje" id="Tpersonaje" value="Villano / Villana" >"Villano / Villana"
+                            </div>
+                        </div>
+                    </div>                
                 </div>
+                <input class="boton2" type="submit" value="Añadir" >
+
 
 
 
