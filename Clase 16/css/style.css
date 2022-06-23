@@ -1,0 +1,139 @@
+body {  
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.fotito {
+    border-radius: 50%;    
+    margin-left: 100px;
+    position: relative;
+    margin-top: -70px;
+}
+header {
+    background-color: #1CD1B0;
+    /* height: 38px; */
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    background-color: #00669F;
+    font-family: roboto;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+
+}
+
+section {
+    position: relative;
+    line-height: 19px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    
+
+}
+.fondo3 {
+    display: inline-block;
+    justify-content: center;
+    background-image: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png);
+    height: 193px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+
+}
+
+p { 
+    width: 300px;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: bold;
+    /* font-family: roboto; Tengo que poner la roboto pero en negrita ya que no me toma el bold  */
+    margin-bottom: 12px;
+    padding-top: 12px;
+    width: 300px;
+    text-align: center;
+    
+}
+button {
+    margin-bottom: 0px;
+    width: 128px;
+    height: 48.52px;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-family: roboto;
+    border: none;
+}
+footer {
+    margin-top: 500px;
+    background-color: #00669F;
+    color: #FFF9F9;
+    font-family: roboto;
+    padding-left: 10px;
+}
+
+section article div {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #F3F3F3;
+    height: 529px;
+    width: 300px;
+}
+h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: roboto;
+    
+}
+.corazon {
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 21px;
+}
+
+.boton {
+    position: absolute;
+        right: 1rem;
+        height: 50vh;
+    
+}
+
+form {
+    background-color: #00669F;
+    border-radius: 49px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+@media (max-width: 769px) {
+    section {
+        background-color: red;
+    }
+    
+
+    
+}
+
+@media (max-width: 480px) {
+    section {
+        background-color: blue;
+    }
+    
+
+    
+}

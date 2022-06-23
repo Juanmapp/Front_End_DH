@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Descuentos 20%</h3>  
+    </header>
+    <main>
+        <h1>Heroes</h1>
+        <section>
+            <form action="superAñadido.html" method="get">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+
+                <div>
+                    <label for="name">*Nombre</label>
+                    <input type="text" name="name" id="name" required>
+                
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie" required>
+                        <option value="Humano" selected>Humano</option>
+                        <option value="Unknow">Unknow</option>
+                        <option value="Extraterrestre">Extraterrestre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="fecha" id="fecha">
+
+                    <label for="formfoto">Agregar foto</label>
+                    <input type="file" name="foto" id="formfoto" accept=".jpg">
+                </div>
+                <div>
+                    <label for="descripcion"></label>
+                    <textarea name="descripcion" id="descripcion" cols="30" rows="15" placeholder="Descripcion"></textarea>
+                </div>
+
+
+
+            </form>
+        
+        </section>
+    </main>
+    <footer>
+        <h3>
+            Todos los derechos reservados a FRONT END 1
+        </h3>
+    </footer>
+    
+</body>
+</html>
