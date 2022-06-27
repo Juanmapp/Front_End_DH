@@ -19,13 +19,18 @@ button {
 .boton2 {
     background-color: #FFFFFF;
     color: #F3603B;
+    width: 134px;
+    height: 44px;
 }
 
 /* header */
 
 body header {
     display: flex;
-    justify-content: space-;
+    justify-content: space-evenly;
+    width:90vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 
 }
@@ -38,6 +43,8 @@ header div nav ul{
 }
 header div nav ul li a {
     padding-right: 28px;
+    text-decoration: none;
+    color: #242E52;
 }
 
 
@@ -82,7 +89,7 @@ section.segunda div {
     width: 555PX;
     
 }
-h2{
+.segundaSec h2{
     color: #232851;
     font-size: 36px;
     width: 433px;
@@ -109,7 +116,6 @@ section.segunda article {
     margin: 25px;
     
 }
-section.segunda article div
 
 h4 {
     margin-bottom: 15px;
@@ -122,22 +128,85 @@ p {
 /* tercera section */
 
 .tercera {
-    background-color: aqua;
+    /* background-color: aqua; */
+    margin-top: 132px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+    width: 1110px;
+    margin-bottom: 180px;
 }
 
 .terceraSec {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 45px;
+    
+}
+.tercera h2 {
+    text-align: center;
+    color: #232851;
+    font-size: 36px;
+    margin-bottom: 74px;
+}
+.terceraSec article {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-top: 40px;
+    width: 445px;
+}
+.terceraSec article img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -40px;
+    left: 140px;
+
+}
+.terceraSec article h4 {
+    margin-top: 21px;
 }
 
+
+/* cuarta section */
+
 .cuarta {
-    background-color: green;
+    background-color: #F3613C;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 224px;
+    color: #FFFFFF;
+    /* width: 1110px; */
+    padding-left: 110px;
+    padding-right: 130px;
+    align-items: center;
 }
+.cuarta h2 {
+    width: 438PX;
+    font-size: 40PX;
+}
+
+/* quinta Section */
 
 .quinta {
     background-color: rgb(35, 44, 81);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 247px;
+    padding-left: 110px;
+    padding-right: 110px;
+    align-items: center;
 }
+
+.quinta .primero {
+    display: flex;
+    flex-direction: column;
+    height: 153px;
+    justify-content: space-around;
+}
+
+    
