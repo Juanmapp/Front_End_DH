@@ -57,24 +57,31 @@ header div nav ul li a {
     display: flex;
     justify-content: center;
     color: #232C50;
+    margin-bottom: 99px;
 
     
 }
 
-main section.primera div {
+section.primera div {
     width: 555px;
     height: 555px;
 }
 
-main section.primera img {
+section.primera img {
     width: 555px;
     height: 555px;
 }
 
 
 h1 {
-    margin-bottom: 5%;
+    margin-top: 80px;
+    margin-bottom: 28px;
     font-size: 58px;
+}
+section.primera div p {
+    width: 350px;
+    line-height: 30px;
+    margin-bottom: 28px;
 }
 
 /* Segunda section */
@@ -180,9 +187,8 @@ p {
     justify-content: space-between;
     height: 224px;
     color: #FFFFFF;
-    /* width: 1110px; */
-    padding-left: 110px;
-    padding-right: 130px;
+    padding-left: 165px;
+    padding-right: 175px;
     align-items: center;
 }
 .cuarta h2 {
@@ -197,8 +203,8 @@ p {
     display: flex;
     justify-content: space-between;
     height: 247px;
-    padding-left: 110px;
-    padding-right: 110px;
+    padding-left: 165px;
+    padding-right: 175px;
     align-items: center;
 }
 
@@ -207,6 +213,19 @@ p {
     flex-direction: column;
     height: 153px;
     justify-content: space-around;
+    +
+    
+
+}
+.quinta .primero div {
+    display: flex;
+    justify-content: space-between;
 }
 
-    
+.quinta .segundo {
+    display: flex; 
+    color: white;
+    line-height: 30px;
+    justify-content: space-between;
+    width: 392px;
+}    
