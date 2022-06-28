@@ -2,10 +2,12 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Be Vietnam' , sans-serif;
+    /* border: 1px solid red; */
 }
 
 p {
     font-size: 16px;
+    color: #B3B2B7;
 }
 
 button {
@@ -45,6 +47,9 @@ header div nav ul li a {
     padding-right: 28px;
     text-decoration: none;
     color: #242E52;
+}
+body header button {
+    
 }
 
 
@@ -128,9 +133,9 @@ h4 {
     margin-bottom: 15px;
     color: #323851;
 }
-p {
-    color: #B3B2B7;
-}
+
+
+
 
 /* tercera section */
 
@@ -229,3 +234,50 @@ p {
     justify-content: space-between;
     width: 392px;
 }    
+
+@media (max-width: 380px) {
+    main .primera {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        }
+
+
+    main .primera div{
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin-bottom: 40px;
+        }
+        
+    h1 {
+        font-size: 40px;
+        }
+    .boton2 {
+        background-color: #FFFFFF;
+        color: #F3603B;
+        width: 134px;
+        height: 44px;
+        }
+    button {
+        padding: 12.5PX;
+        border-radius: 50px;
+        border: none;
+        background-color: #F3603B;
+        color: #FFFFFF;
+        width: 134px;
+        height: 44px;
+            
+            }
+    main .primera img {
+        width: 375px;
+        height: 375px;
+        } 
+        
+    
+
+
+    main .primera div button {
+        margin-bottom: 45px;
+        }
+    }
