@@ -27,7 +27,7 @@ button {
 
 /* header */
 
-body header {
+header {
     display: flex;
     justify-content: space-evenly;
     width:90vw;
@@ -48,8 +48,10 @@ header div nav ul li a {
     text-decoration: none;
     color: #242E52;
 }
-body header button {
-    
+
+.hamburguesa {
+    display: none;
+    visibility: hidden;
 }
 
 
@@ -236,7 +238,39 @@ h4 {
 }    
 
 @media (max-width: 380px) {
-    main .primera {
+    
+    header {
+        width: 375px;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    
+
+    div nav ul li a {
+        display: none;
+        visibility: hidden;
+
+
+    }
+    header .menu {
+        display: flex;
+    }
+
+    header div button {
+        display: none;
+        visibility: hidden;
+    }
+
+    .hamburguesa {
+        order: -1;
+        display: inline-block;
+        visibility: visible;
+        margin-left: 100px;
+        height: 24px;
+
+    }
+    .primera {
         display: flex;
         flex-direction: column;
         width: 375px;
@@ -272,12 +306,6 @@ h4 {
     main .primera img {
         width: 375px;
         height: 375px;
-        } 
-        
-    
-
-
-    main .primera div button {
-        margin-bottom: 45px;
-        }
     }
+
+} 
