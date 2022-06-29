@@ -4,7 +4,9 @@
     font-family: 'Be Vietnam' , sans-serif;
     /* border: 1px solid red; */
 }
-
+body {
+    width: 1440px;
+}
 p {
     font-size: 16px;
     color: #B3B2B7;
@@ -16,6 +18,8 @@ button {
     border: none;
     background-color: #F3603B;
     color: #FFFFFF;
+    width: 134px;
+    height: 44px;
 }
 
 .boton2 {
@@ -29,10 +33,13 @@ button {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width:90vw;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 160px;
+    width: 1110PX;
+    
 
 
 }
@@ -54,6 +61,11 @@ header div nav ul li a {
     visibility: hidden;
 }
 
+header div button {
+    position: relative;
+    margin-top: -30px;
+
+}
 
 
 /* main */
@@ -69,12 +81,12 @@ header div nav ul li a {
     
 }
 
-section.primera div {
+.primerSec {
     width: 555px;
     height: 555px;
 }
 
-section.primera img {
+.primera img {
     width: 555px;
     height: 555px;
 }
@@ -99,7 +111,7 @@ section.primera div p {
     justify-content: center;
 }
 
-section.segunda div {
+.segunda div {
     width: 555PX;
     
 }
@@ -125,7 +137,7 @@ h3 {
     color: #FFFFFF;
 }
 
-section.segunda article {
+.segunda article {
     display: flex;
     margin: 25px;
     
@@ -147,7 +159,6 @@ h4 {
     margin-left: 110px;
     margin-right: 110px;
     text-align: center;
-    width: 1110px;
     margin-bottom: 180px;
 }
 
@@ -235,10 +246,43 @@ h4 {
     line-height: 30px;
     justify-content: space-between;
     width: 392px;
-}    
+}
+
+.quinta .tercero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 213px;
+}
+
+.quinta .tercero form input{
+    border-radius: 50px;
+    height: 44px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.Go{
+    background-color: #F3603B;
+    width: 63px;
+    border: none;
+    color: white;
+}
+
+.quinta .tercero div p {
+    font-size: 12px;
+    position: absolute;
+    right: 180px;
+}
+
+
 
 @media (max-width: 380px) {
     
+    body {
+        width: 375px;
+    }
     header {
         width: 375px;
         display: flex;
@@ -290,10 +334,8 @@ h4 {
 
 
     .primerSec{
-        display: flex;
         width: 375px;
-        margin-bottom: 40px;
-        text-align: center;
+        height: 375px;
         
         }
         
@@ -339,16 +381,71 @@ h4 {
     }
 
     .segunda {
+        width: 375px;
         display: flex;
         flex-direction: column;
     }
     .segundaSec {
-        width: 100px;
+        width: 375px;
+        text-align: center;
+        
+    }
+    
+
+    .segundaSec h2 {
+        width: 375px;
+
+    }
+    .segunda div {
+        width: 375px;
+    }
+    .texto1 {
+        width: 375px;
+        margin: 0px;
+    }
+    section.segunda article {
+        width: 375px;
+        margin: 0px;
+    }
+    .tercera {
+        width: 375px;
+        text-align: center;
+        margin: 20px 0 20px 0;
+
+    }
+    .anisha {
+        display: none;
+        visibility: hidden;
+    }
+    .richard {
+        display: none;
+        visibility: hidden;
+
     }
 
-    section div h2 {
-        width: 300px;
+    .cuarta {
+        width: 375px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        
+    }
+    .cuarta h2 {
+        width: 375px;
+    }
+    
 
+    .quinta {
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .quinta div {
+        display: flex;
     }
 
 } 
