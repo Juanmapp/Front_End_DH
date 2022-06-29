@@ -1,0 +1,370 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam' , sans-serif;
+    border: 1px solid red;
+}
+
+p {
+    font-size: 16px;
+    color: #B3B2B7;
+}
+
+button {
+    padding: 12.5PX;
+    border-radius: 50px;
+    border: none;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    width: 134px;
+    height: 44px;
+}
+
+
+.boton2 {
+    background-color: #FFFFFF;
+    color: #F3603B;
+    width: 134px;
+    height: 44px;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    width:90vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+
+
+}
+
+header div nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 13px;
+    margin-left: 80px;
+    margin-right:80px;
+
+}
+header div nav ul li a {
+    padding-right: 28px;
+    text-decoration: none;
+    color: #242E52;
+}
+
+.hamburguesa {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+/* main */
+
+/* 1era section */
+
+.primera {
+    display: flex;
+    justify-content: center;
+    color: #232C50;
+    margin-bottom: 99px;
+
+    
+}
+
+.primera div {
+    width: 555px;
+    height: 555px;
+}
+
+.primera img {
+    width: 555px;
+    height: 555px;
+}
+
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 28px;
+    font-size: 58px;
+}
+section.primera div p {
+    width: 350px;
+    line-height: 30px;
+    margin-bottom: 28px;
+}
+
+/* Segunda section */
+
+.segunda {
+
+    display: flex;
+    justify-content: center;
+}
+
+section.segunda div {
+    width: 555PX;
+    
+}
+.segundaSec h2{
+    color: #232851;
+    font-size: 36px;
+    width: 433px;
+    margin-bottom: 36PX;
+    
+}
+.texto1 {
+    width: 300px;
+}
+h3 {
+    background-color: #F3603B;
+    border-radius: 30px;
+    width: 89px;
+    height: 43px;
+    text-align: center;
+    padding-top: 13px;
+    margin-right: 23px;
+    margin-top: -15px;
+    color: #FFFFFF;
+}
+
+section.segunda article {
+    display: flex;
+    margin: 25px;
+    
+}
+
+h4 {
+    margin-bottom: 15px;
+    color: #323851;
+}
+
+
+
+
+/* tercera section */
+
+.tercera {
+    /* background-color: aqua; */
+    margin-top: 132px;
+    margin-left: 110px;
+    margin-right: 110px;
+    text-align: center;
+    width: 1110px;
+    margin-bottom: 180px;
+}
+
+.terceraSec {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 45px;
+    
+}
+.tercera h2 {
+    text-align: center;
+    color: #232851;
+    font-size: 36px;
+    margin-bottom: 74px;
+}
+.terceraSec article {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-top: 40px;
+    width: 445px;
+}
+.terceraSec article img {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -40px;
+    left: 140px;
+
+}
+.terceraSec article h4 {
+    margin-top: 21px;
+}
+
+
+/* cuarta section */
+
+.cuarta {
+    background-color: #F3613C;
+    display: flex;
+    justify-content: space-between;
+    height: 224px;
+    color: #FFFFFF;
+    padding-left: 165px;
+    padding-right: 175px;
+    align-items: center;
+}
+.cuarta h2 {
+    width: 438PX;
+    font-size: 40PX;
+}
+
+/* quinta Section */
+
+.quinta {
+    background-color: rgb(35, 44, 81);
+    display: flex;
+    justify-content: space-between;
+    height: 247px;
+    padding-left: 165px;
+    padding-right: 175px;
+    align-items: center;
+}
+
+.quinta .primero {
+    display: flex;
+    flex-direction: column;
+    height: 153px;
+    justify-content: space-around;
+
+    
+
+}
+.quinta .primero div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quinta .segundo {
+    display: flex; 
+    color: white;
+    line-height: 30px;
+    justify-content: space-between;
+    width: 392px;
+}    
+
+@media (max-width: 380px) {
+    
+    header {
+        width: 375px;
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+    
+    
+    }
+    
+
+    div nav ul li a {
+        display: none;
+        visibility: hidden;
+
+
+    }
+    header .menu {
+        display: flex;
+    }
+
+    header div button {
+        display: none;
+        visibility: hidden;
+    }
+
+    .logo {
+        position: absolute;
+        left: 15px;
+    }
+    .hamburguesa {
+
+        display: flex;
+        visibility: visible;
+        margin-left: 100px;
+        height: 24px;
+        position: absolute;
+        right: 15px;
+
+    }
+    .primera {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        margin-top: 100px;
+        }
+    
+    .primera div {
+    width: 375px;
+    }
+    
+    .primera img {
+        order: -1;
+    }
+
+
+    .primerSec{
+        display: flex;
+        width: 375px;
+        margin-bottom: 40px;
+        text-align: center;
+        
+        }
+        
+    h1 {
+        font-size: 40px;
+        width: 350px;
+        text-align: center;
+        margin-left: 15px;
+        }
+    section div p {
+        width: 300px;
+        text-align: center;
+        padding-left: 35px;
+        margin-left: 15px;
+        padding-right: 35px;
+    }
+    section div button {
+        position: absolute;
+        left: 124px;
+    }
+
+    .boton2 {
+        background-color: #FFFFFF;
+        color: #F3603B;
+        width: 134px;
+        height: 44px;
+        }
+    button {
+        padding: 12.5PX;
+        border-radius: 50px;
+        border: none;
+        background-color: #F3603B;
+        color: #FFFFFF;
+        width: 134px;
+        height: 44px;
+
+            
+            }
+    main .primera img {
+        width: 350px;
+        height: 300px;
+        padding-left: 25px;
+    }
+
+    .segunda {
+        display: flex;
+        flex-direction: column;
+    }
+    .segundaSec {
+        width: 375px;
+    }
+
+    .segundaSec h2 {
+        width: 375px;
+        text-align: center;
+    }
+    .segundaSec p {
+        text-align: center;
+        margin-right: 0px;
+    }
+
+} 
