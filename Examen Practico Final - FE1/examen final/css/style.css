@@ -20,6 +20,14 @@ button {
     color: #FFFFFF;
     width: 134px;
     height: 44px;
+    transition-property: all;
+    transition-duration: 1s;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+    transform: scale(1.1, 1.1);
+    color: white;
 }
 
 .boton2 {
@@ -54,6 +62,9 @@ header div nav ul li a {
     padding-right: 28px;
     text-decoration: none;
     color: #242E52;
+}
+header div nav ul li a:hover {
+    opacity: 0.5;
 }
 
 .hamburguesa {
@@ -124,6 +135,7 @@ section.primera div p {
 }
 .texto1 {
     width: 300px;
+    padding-bottom: 40px;
 }
 h3 {
     background-color: #F3603B;
@@ -154,7 +166,6 @@ h4 {
 /* tercera section */
 
 .tercera {
-    /* background-color: aqua; */
     margin-top: 132px;
     margin-left: 110px;
     margin-right: 110px;
@@ -220,42 +231,50 @@ h4 {
     background-color: rgb(35, 44, 81);
     display: flex;
     justify-content: space-between;
-    height: 247px;
     padding-left: 165px;
     padding-right: 175px;
     align-items: center;
 }
 
-.quinta .primero {
+.primero {
     display: flex;
     flex-direction: column;
     height: 153px;
     justify-content: space-around;
-
-    
-
 }
-.quinta .primero div {
+.primero div {
     display: flex;
     justify-content: space-between;
 }
+.primero div a i{
+    color: white;
+    font-size: 20px;
+}
+.primero div a i:hover {
+    color: #F3613C;
 
-.quinta .segundo {
+}
+
+.segundo {
     display: flex; 
     color: white;
     line-height: 30px;
     justify-content: space-between;
     width: 392px;
 }
+.segundo nav ul li:hover {
+    cursor: pointer;
+    color:#F3613C;
+}
 
-.quinta .tercero {
+.tercero {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 213px;
 }
 
-.quinta .tercero form input{
+.tercero form input{
     border-radius: 50px;
     height: 44px;
     padding-left: 10px;
@@ -268,9 +287,16 @@ h4 {
     width: 63px;
     border: none;
     color: white;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.Go:hover {
+    cursor: pointer;
+    background-color: #eca18e;
+    transform: scale(1.1, 1.1);
 }
 
-.quinta .tercero div p {
+.copy {
     font-size: 12px;
     position: absolute;
     right: 180px;
@@ -283,44 +309,43 @@ h4 {
     body {
         width: 375px;
     }
+
+
+    /* header */
+
+
     header {
         width: 375px;
         display: flex;
-        justify-content: space-evenly;
-        
-        
+        justify-content: space-evenly;                
     }
-    
-
     div nav ul li a {
         display: none;
         visibility: hidden;
-
-
     }
     header .menu {
         display: flex;
     }
-
     header div button {
         display: none;
         visibility: hidden;
     }
-
     .logo {
         position: absolute;
         left: 15px;
     }
     .hamburguesa {
-
         display: inline-block;
         visibility: visible;
         margin-left: 100px;
         height: 24px;
         position: absolute;
         right: 15px;
-
     }
+
+    /* primera Section */
+
+
     .primera {
         display: flex;
         flex-direction: column;
@@ -362,7 +387,7 @@ h4 {
         color: #F3603B;
         width: 134px;
         height: 44px;
-        }
+    }
     button {
         padding: 12.5PX;
         border-radius: 50px;
@@ -370,15 +395,17 @@ h4 {
         background-color: #F3603B;
         color: #FFFFFF;
         width: 134px;
-        height: 44px;
-
-            
-            }
-    main .primera img {
+        height: 44px;            
+    }
+    .primera img {
         width: 350px;
         height: 300px;
         padding-left: 25px;
     }
+
+
+    /* segunda section */
+
 
     .segunda {
         width: 375px;
@@ -388,13 +415,9 @@ h4 {
     .segundaSec {
         width: 375px;
         text-align: center;
-        
     }
-    
-
     .segundaSec h2 {
         width: 375px;
-
     }
     .segunda div {
         width: 375px;
@@ -406,12 +429,69 @@ h4 {
     section.segunda article {
         width: 375px;
         margin: 0px;
+        text-align: center;
+    }   
+    h3 {
+        width: 63PX;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 15px ;        
     }
+    article div h4 {
+        padding-left: 85px;
+        background-color: rgba(238, 87, 0, 0.1);
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        text-align: left;
+    }
+    article div p {
+        width: 375PX;
+        padding-top: 10px;
+        padding-bottom: 50PX;
+        padding-left: 15px;
+        text-align: left;
+        margin-left: 0px;
+    }
+
+
+    /* tercera Section */
+    
+    
     .tercera {
         width: 375px;
         text-align: center;
         margin: 20px 0 20px 0;
+    }
+    .terceraSec article {
+        width: 375px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .terceraSec article p {
+        text-align: center;
+        width: 350px;
+    }
+    .terceraSec article img {
+        left: 150px;
+    }
 
+
+    /* cuarta Section */
+
+
+    .cuarta {
+        width: 375px;
+        padding: 15px 0px 15px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 320px;
+        padding-bottom: 80px;    
+    }
+    .cuarta h2 {
+        width: 320px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .anisha {
         display: none;
@@ -420,30 +500,11 @@ h4 {
     .richard {
         display: none;
         visibility: hidden;
-
     }
 
-    .cuarta {
-        width: 375px;
-        padding: 15px 0 px 15px 0px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        height: 300px;
-        padding-bottom: 30px;
 
-        
-        
-    }
-    .cuarta h2 {
-        width: 320px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .texto1 {
-        padding-bottom: 30px;
-    }
-    
+    /* Footer */
+
 
     .quinta {
         width: 375px;
@@ -453,11 +514,48 @@ h4 {
     }
 
     .quinta div {
-        display: flex;
+        text-align: center;
         
+    }
+    .primero{
+        order: 1;
+        align-items: center;
+        width: 375px;
+        padding-bottom: 60px;
+    }
+    .redes {
+        order: -1;
+        width: 300px;
+        text-align: center;
+    }
+    .logo2 {
+        width: 146px;
+        height: 24px;
+        text-align: center;
+        margin-top: 35px;
+    }
+    .segundo {
+        justify-content: center;
+        width: 375px;
+        padding: 15px 15px 15px 15px;
+        order: 0;
+    }
+    .segundo nav ul {
+        text-align: left;
+        padding-right: 15px;
     }
     .tercero {
         order: -1;
-    }    
-
+        width: 375px;
+        height: 100px;
+    }
+    .mail{
+        width: 250px;
+    } 
+    .copy {
+    width: 375px;
+    right: -16px;
+    top: 2960PX;
+    text-align: center;
+    }
 } 
