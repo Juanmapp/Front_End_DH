@@ -425,15 +425,23 @@ h4 {
 
     .cuarta {
         width: 375px;
-        padding: 0px;
+        padding: 15px 0 px 15px 0px;
         display: flex;
         flex-direction: column;
         text-align: center;
+        height: 300px;
+        padding-bottom: 30px;
+
         
         
     }
     .cuarta h2 {
-        width: 375px;
+        width: 320px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .texto1 {
+        padding-bottom: 30px;
     }
     
 
@@ -441,11 +449,15 @@ h4 {
         width: 375px;
         display: flex;
         flex-direction: column;
-        padding: 0px;
+        padding-top: 15px;
     }
 
     .quinta div {
         display: flex;
+        
     }
+    .tercero {
+        order: -1;
+    }    
 
 } 
