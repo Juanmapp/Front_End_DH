@@ -2,16 +2,16 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Be Vietnam' , sans-serif;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 body {
-    width: 1440px;
+    width: 1440px;  
 }
 p {
     font-size: 16px;
     color: #B3B2B7;
+    line-height: 30px;
 }
-
 button {
     padding: 12.5PX;
     border-radius: 50px;
@@ -30,9 +30,7 @@ button:hover {
     color: white;
     transition-property: all;
     transition-duration: 1s;
-
 }
-
 .boton2 {
     background-color: #FFFFFF;
     color: #F3603B;
@@ -47,14 +45,10 @@ header {
     justify-content: space-between;
     width:90vw;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-left: 160px;
     width: 1110PX;
-    
-
-
 }
-
 header div nav ul{
     display: flex;
     justify-content: space-evenly;
@@ -69,17 +63,13 @@ header div nav ul li a {
 header div nav ul li a:hover {
     opacity: 0.5;
 }
-
 .hamburguesa {
     display: none;
 }
-
 header div button {
     position: relative;
     margin-top: -30px;
-
 }
-
 
 /* main */
 
@@ -89,22 +79,16 @@ header div button {
     display: flex;
     justify-content: center;
     color: #232C50;
-    margin-bottom: 99px;
-
-    
+    margin-bottom: 99px;   
 }
-
 .primerSec {
     width: 555px;
     height: 555px;
 }
-
 .primera img {
     width: 555px;
     height: 555px;
 }
-
-
 h1 {
     margin-top: 80px;
     margin-bottom: 28px;
@@ -119,11 +103,9 @@ section.primera div p {
 /* Segunda section */
 
 .segunda {
-
     display: flex;
     justify-content: center;
 }
-
 .segunda div {
     width: 555PX;
     
@@ -150,20 +132,15 @@ h3 {
     margin-top: -15px;
     color: #FFFFFF;
 }
-
 .segunda article {
     display: flex;
     margin: 25px;
     
 }
-
 h4 {
     margin-bottom: 15px;
     color: #323851;
 }
-
-
-
 
 /* tercera section */
 
@@ -174,7 +151,6 @@ h4 {
     text-align: center;
     margin-bottom: 180px;
 }
-
 .terceraSec {
     display: flex;
     justify-content: space-evenly;
@@ -202,13 +178,11 @@ h4 {
     height: 70px;
     position: absolute;
     top: -40px;
-    left: 140px;
-
+    left: 160px;
 }
 .terceraSec article h4 {
     margin-top: 21px;
 }
-
 
 /* cuarta section */
 
@@ -237,7 +211,6 @@ h4 {
     padding-right: 175px;
     align-items: center;
 }
-
 .primero {
     display: flex;
     flex-direction: column;
@@ -254,9 +227,7 @@ h4 {
 }
 .primero div a i:hover {
     color: #F3613C;
-
 }
-
 .segundo {
     display: flex; 
     color: white;
@@ -268,22 +239,18 @@ h4 {
     cursor: pointer;
     color:#F3613C;
 }
-
 .tercero {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 213px;
 }
-
 .tercero form input{
     border-radius: 50px;
     height: 44px;
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
 .Go{
     background-color: #F3603B;
     width: 63px;
@@ -297,13 +264,11 @@ h4 {
     transition-property: all;
     transition-duration: 1s;
 }
-
 .copy {
     font-size: 12px;
     position: absolute;
     right: 180px;
 }
-
 
 
 @media (max-width: 400px) {
@@ -350,19 +315,15 @@ h4 {
         flex-direction: column;
         width: 375px;
         margin-top: 100px;
-        }
-    
+        }    
     .primera img {
         order: -1;
     }
-
-
     .primerSec{
         width: 375px;
         height: 375px;
         
-        }
-        
+        }       
     h1 {
         font-size: 40px;
         width: 350px;
@@ -380,7 +341,6 @@ h4 {
         position: absolute;
         left: 124px;
     }
-
     .boton2 {
         background-color: #FFFFFF;
         color: #F3603B;
@@ -509,7 +469,6 @@ h4 {
         flex-direction: column;
         padding-top: 15px;
     }
-
     .quinta div {
         text-align: center;
         
@@ -551,7 +510,7 @@ h4 {
     } 
     .copy {
     right: 89px;
-    top: 2960PX;
+    top: 3230PX;
     text-align: center;
     }
 } 
